@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif Arial, sans-serif;
+}
+header{
+    width: 100%;
+    color: white;
+    background-color: black;
+    list-style: none;
+}
+.logo{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.logo span{
+    color: orange;
+    font-weight: lighter;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    color: white;
+    display: inline-block;
+    list-style: none;
+}
