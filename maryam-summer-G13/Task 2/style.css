@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+
+    margin: 0%;
+    padding: 4%;
+    background-color: #816AEB;
+}
+.leftside{
+    border-radius: 2%;
+    border-bottom-right-radius: 0%;
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    background-color: #02B4D2;
+    color: white;
+    margin: 0%;
+    text-align: center;
+}
+.leftside h1{
+    font-size: 198%;
+    margin-bottom: 0%;
+    margin-top: 24%;
+}
+.leftside p{
+    margin-left: 5%;
+    margin-bottom: 63%;
+    margin-right: 10%;
+    font-size: 109%;
+
+}
+.leftside span{
+    display: block;
+    margin-bottom: 10%;
+}
+
+.rightside{   
+    border-radius: 2%;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+    margin-left: -1%;
+    font-size: 120%;
+    text-align: left;
+    background-color: white;
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+}
+.rightside h2{
+    font-size: 197%;
+    height: 18px;
+    text-align: center;
+    margin: 10%;
+}
+.rightside form{
+    text-align: center;
+    margin-bottom: 32%;
+}
+.rightside input{
+    height: 31px;
+    background-color: #EEEEEE;
+    margin: 2%;
+    width: 70%;
+    border-style: none;
+}
+.rightside textarea{
+    background-color:#EEEEEE;
+    width: 70%;
+    height: 70px;
+    margin: 2%;
+}
+.rightside footer{
+    margin-top: 0%;
+    margin-bottom: -2%;
+}
+.rightside button{
+    font-size: 96%;
+    width: 44%;
+    height: 38px;
+    border-style: none;
+    color: white;
+    border-radius: 30px;
+    background-color: #02B4D2;
+}
