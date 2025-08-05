@@ -1,0 +1,99 @@
+/* Reset style */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* Global style */
+p, h1{
+      padding: 3% 0%;
+}
+footer{
+    font-size: 95%;
+    font-weight: bolder;
+    font-family: 'Font Awesome 5 Brands';
+    margin-bottom: 3%;
+    padding: 0% 3%;
+}
+hr{
+    transition: width 1s ease;
+    border-radius: 26%;
+    border: 1px solid blue;
+    width: 30%;
+    margin: 4% 0%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* Customized style */
+.flip-card{
+    position: relative;
+    overflow: hidden;
+    transition: tansform 2s ease;
+    border-radius: 9px;
+    box-shadow: 0px -1px 11px 2px #00000091;
+    margin: 2% 3%;
+    width: 25%;
+}
+.img{
+    transition: transform 2s ease ;
+    transform-origin: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.left{
+    transition: background-color 2s ease;
+    padding-top: 4%;
+    width: 49%;
+    background-color: black;
+    color: white;
+}
+.icons{
+    padding: 33% 17%;
+}
+
+.right{
+    padding: 1% 2%;
+}
+.right h1{
+    font-size: 107%;
+    padding: 3% 0%;
+}
+.txt{
+    color: gray;
+}
+.right p{
+    color: gray;
+    padding: 4% 1%;
+    line-height: 128%;
+}
+.flip-card:hover .left{
+    background-color: blue;
+}
+.flip-card:hover img{
+    transform: scale(1.1) rotate(1deg);
+}
+.flip-card:hover hr{
+    width: 100%;
+}

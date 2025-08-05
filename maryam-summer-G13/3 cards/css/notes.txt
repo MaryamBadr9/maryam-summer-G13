@@ -1,0 +1,12 @@
+prespective--> makes the rotation 3d (on the parent) start 600px end 1000px
+backface-visibility--> hidden   
+
+
+
+transform style->> (flip-body) prespective-3d
+
+flip-card->> flip-body->> flip front->> flip backface
+
+prespective--->>  flip card
+
+transform style,hover transision--->>  card-body

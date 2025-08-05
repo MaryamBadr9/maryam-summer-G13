@@ -1,0 +1,6 @@
+/* rule ==> @media */
+/* type == print, screen, speetch */
+/* condition () ==> max width, min width, range*/
+@media(max-width=400px){
+    
+}
