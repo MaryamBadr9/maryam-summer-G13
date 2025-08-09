@@ -29,8 +29,9 @@ hr{
     width: 125%;
     border-bottom: #dddddda6 solid 1px;
 }
-
-
+form{
+    padding: 2%;
+}
 
 
 
@@ -361,18 +362,67 @@ hr{
     background-color: #01012a;
 }
 .get-main{
+    padding: 3%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
 .get-left{
+    padding: 3%;
+    font-size: 90%;
+    border-radius: 3%;
     color: #01012a;
     background-color: white;
 }
 .get-right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 
 }
+.box{
+    width: 35%;
+    font-size: 86%;
+    line-height: 200%;
+    margin: 4%;
+}
+.get-footer{
+    line-height: 160%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.xx{
+    border-radius: 11px;
+    padding: 2%;
+    font-size: 75%;
+    width: 50%;
+}
+.get-btn{
+    background-color: white;
+    border: none;
+    padding: 2%;
+    border-radius: 6px;
+    color: #03031f;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -449,4 +499,33 @@ width: 30%;
 }
 .left-img{
     padding: 1% 0%;
+}
+.w-100{
+    width: 100%;
+}
+.mar-bot{
+    margin-bottom: 1%;
+}
+.h-100{
+    height: 100px;
+}
+.bg{
+    color: white;
+    background-color: #01012a;
+    border: none;
+    border-radius:7px ;
+}
+.bor-grey{
+    border-style: solid;
+    border-color: #c4bebe;
+    border-radius: 5px;
+    padding: 2%;
+}
+.mar-top{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.pad-1{
+    margin-top: 5%;
+    padding: 3% 2%;
 }
