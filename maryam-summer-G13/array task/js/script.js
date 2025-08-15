@@ -1,10 +1,10 @@
-var usersList = [
-    { id: 1, name: "Maryam", balance: 1000 },
-    { id: 2, name: "Badr", balance: 1500 },
-    { id: 3, name: "Ahmed", balance: 2000 },
-    { id: 4, name: "Sara", balance: 2500 }
-]
-console.log(usersList)
+// var usersList = [
+//     { id: 1, name: "Maryam", balance: 1000 },
+//     { id: 2, name: "Badr", balance: 1500 },
+//     { id: 3, name: "Ahmed", balance: 2000 },
+//     { id: 4, name: "Sara", balance: 2500 }
+// ]
+// console.log(usersList)
 
 // function addUser(){
 //     var id = Number (prompt("enter id: "))
@@ -41,18 +41,19 @@ console.log(usersList)
 
 // console.log(editBalance())
 
-function deleteUser(){
-    var id = Number(prompt('enter id to delete user'))
+// function deleteUser(){
+//     var id = Number(prompt('enter id to delete user'))
    
-    for(var i=0 ; i < usersList.length ; i++){
-        if(usersList[i].id === id){
-            usersList.splice(i , 1)
-            console.log('user deleted')
-        }
-        console.log(usersList)
-    }
+//     for(var i=0 ; i < usersList.length ; i++){
+//         if(usersList[i].id === id){
+//             usersList.splice(i , 1)
+//             console.log('user deleted')
+//         }
+//         console.log(usersList)
+//     }
     
-}
+// }
 
-console.log(deleteUser())
+// console.log(deleteUser())
+
 
